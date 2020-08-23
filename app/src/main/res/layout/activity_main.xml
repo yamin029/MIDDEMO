@@ -69,7 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="300px"
             android:layout_below="@+id/etAddress"
-            android:hint="Enter Your Education"
+            android:hint="Enter Your Education \nSchool Name, \nCollege Name, \nUniversity Name"
             android:textAlignment="viewStart">
 
         </EditText>
@@ -79,7 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="300px"
             android:layout_below="@+id/etEducation"
-            android:hint="Enter Your Skills"
+            android:hint="Enter Your Skills \n1 Java,\n2C++,\n3.Dart"
             android:textAlignment="viewStart">
 
         </EditText>
@@ -109,7 +109,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/btnSave"
-            android:text="Create CV"
+            android:text="Create portfolio"
             android:onClick="showUserInfo"
             >
 
